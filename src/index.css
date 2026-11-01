@@ -1,0 +1,12 @@
+@import "tailwindcss";
+:root{--bg:#0b1118;--fg:#ececee;--mut:#9aa4b2;--card:rgba(255,255,255,.05);--bd:rgba(255,255,255,.1);--acc:#ff9a5a}
+[data-theme=light]{--bg:#eef1f6;--fg:#141922;--mut:#566070;--card:rgba(255,255,255,.65);--bd:rgba(20,25,34,.1);--acc:#e2661f}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--fg);font-family:'Outfit',system-ui,sans-serif;transition:background .4s,color .4s}
+.mono{font-family:'JetBrains Mono',ui-monospace,monospace}
+.glass{background:var(--card);border:1px solid var(--bd);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px)}
+.btn{display:inline-flex;align-items:center;gap:.5rem;border-radius:9999px;padding:.75rem 1.5rem;font-size:.9rem;font-weight:500;transition:transform .2s,box-shadow .2s}
+.btn:hover{transform:translateY(-2px)}
+.btn-primary{background:linear-gradient(135deg,#ffb27a,#ff7a3d);color:#1a1008;box-shadow:0 8px 30px -8px #ff7a3d99}
+.btn-ghost{border:1px solid var(--bd);background:var(--card);backdrop-filter:blur(12px)}
+:focus-visible{outline:2px solid var(--acc);outline-offset:3px}
