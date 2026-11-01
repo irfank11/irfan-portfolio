@@ -181,13 +181,15 @@ export default function App() {
 
       <footer className="border-t border-[var(--bd)]">
         <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-4 px-6 py-8 text-sm text-[var(--mut)]">
-          <p className="block w-full text-center md:w-auto">{new Date().getFullYear()}<br />{person.name}</p>
+          <div className="block text-center md:text-left">
+            <div>{new Date().getFullYear()} {person.name}</div>
+            <div>All rights reserved.</div>
+          </div>
           <div className="flex gap-5">
             <a href={person.github} target="_blank" rel="noreferrer">GitHub</a>
             <a href={person.linkedin} target="_blank" rel="noreferrer">LinkedIn</a>
             <a href={`mailto:${person.email}`}>Email</a>
           </div>
-          <div className="block w-full text-center md:w-auto">All rights reserved.</div>
           <a href="#home" className="btn btn-ghost !py-2">Back to top ↑</a>
         </div>
       </footer>
