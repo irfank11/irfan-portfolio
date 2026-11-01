@@ -21,7 +21,7 @@ function Section({ id, kicker, title, children }) {
 function ThemeToggle({ dark, onClick }) {
   return (
     <button onClick={onClick} aria-label={`Switch to ${dark ? 'light' : 'dark'} theme`} className="flex h-6 w-11 items-center rounded-full bg-gradient-to-r from-orange-200 to-sky-200 p-0.5">
-      <motion.span layout transition={{ type: 'spring', stiffness: 500, damping: 30 }} style={{ marginLeft: dark ? 0 : 'auto' }} className="block h-5 w-5 rounded-full bg-gradient-to-br from-orange-300 to-orange-500 shadow" />
+      <motion.span layout transition={{ type: 'spring', stiffness: 500, damping: 30 }} style={{ marginLeft: dark ? 0 : 'auto' }} className="block h-5 w-5 rounded-full bg-gradient-to-br from-orange-400 to-sky-400" />
     </button>
   )
 }
@@ -134,7 +134,7 @@ export default function App() {
                 <p className="mono text-xs text-[var(--acc)]">{e.years}</p>
                 <h3 className="mt-1 text-xl font-semibold">{e.degree}</h3>
                 <p className="text-[var(--mut)]">{e.school}</p>
-                {e.note && <p className="mt-2 text-sm text-[var(--mut)]">{e.note}</p>}
+                {e.note && <p className="mt-2 text-sm text-[var(--mut)] whitespace-pre-line">{e.note}</p>}
               </motion.div>
             ))}
           </div>
