@@ -181,7 +181,7 @@ export default function App() {
 
       <footer className="border-t border-[var(--bd)]">
         <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-4 px-6 py-8 text-sm text-[var(--mut)]">
-          <p>© {new Date().getFullYear()} {person.name}. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} {person.name}. \nAll rights reserved.</p>
           <div className="flex gap-5">
             <a href={person.github} target="_blank" rel="noreferrer">GitHub</a>
             <a href={person.linkedin} target="_blank" rel="noreferrer">LinkedIn</a>
