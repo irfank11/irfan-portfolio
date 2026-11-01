@@ -22,7 +22,7 @@ export const nav = [
 ]
 
 export const education = [
-  { school: 'Jamia Millia Islamia, New Delhi', degree: 'Master of Computer Applications (MCA)', years: '2025 – 2027', note: 'CGPA 9.00 · Student Placement Cell member' },
+  { school: 'Jamia Millia Islamia, New Delhi', degree: 'Master of Computer Applications (MCA)', years: '2025 – 2027', note: 'CGPA 9.00\nStudent Placement Cell member' },
   { school: 'Central University of Rajasthan', degree: 'B.Sc.', years: '2022 – 2025', note: 'CGPA 8.45' },
 ]
 
