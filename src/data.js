@@ -39,5 +39,5 @@ export const projects = [
   { title: 'MediAssist AI', hue: 200, cover: '/medassist.jpg', desc: 'Full-stack RAG healthcare assistant that answers medical queries from curated documents using retrieval and LLM generation.', stack: ['Python', 'React', 'FastAPI', 'FAISS'], github: 'https://github.com/irfank11/medassist-ai', demo: '', date: '2025' },
   { title: 'Campus Knowledge Assistant', hue: 260, cover: '/campus.jpg', desc: 'RAG chatbot that lets students ask questions against college documents and get grounded, sourced answers.', stack: ['Python', 'RAG', 'Streamlit', 'OCR'], github: 'https://github.com/irfank11/campus-knowledge-assistant', demo: '', date: '2025' },
   { title: 'Anas & Sons Jewellers', hue: 38, cover: '', desc: 'Luxury 3D showroom website for a jewellery store in Jamia Nagar, New Delhi.', stack: ['React', 'Three.js', 'Tailwind'], github: '', demo: '', date: '2024' },
-  { title: 'Marwar Hospital', hue: 160, cover: '', desc: 'Premium, research-first website for a hospital in Parbatsar, Rajasthan.', stack: ['React', 'TypeScript', 'Tailwind', '3D'], github: '', demo: '', date: '2024' },
+  
 ]
